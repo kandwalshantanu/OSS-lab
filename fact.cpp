@@ -2,5 +2,11 @@
 using namespace std;
 int main()
 {
-    cout<<"Hello world";
+    int n,ans=1;
+    cin>>n;
+    for(int i=2;i<=n;i++)
+    {
+        ans=ans*i;
+    }
+    cout<<ans;
 }
